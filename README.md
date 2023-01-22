@@ -45,3 +45,7 @@ proyecto `git clone url`
 
 
 ## Ramas
+
+Crear una rama `git branch NombreRama`
+
+Dirigirse a una rama `git checkout NombreRama`
