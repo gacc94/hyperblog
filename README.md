@@ -46,6 +46,8 @@ proyecto `git clone url`
 
 ## Ramas
 
-
 Realizar un merge / Unir ramas / es un commit `git merge ramaHijas`
 
+Crear una rama `git branch NombreRama`
+
+Dirigirse a una rama `git checkout NombreRama`
