@@ -32,6 +32,6 @@ Mostrar cambios entre commits `git diff codigoHash1 codigoHAash2`
  
 volver en el tiempo en nuestro repositorio (--hard = )`git reset codigoHash  --hard`
 
+ver cambios iniciales de cualquier commit `git checkout codigoHash miArchivo`
 
-
-Volver en el tiempo en nuestro repositorio `git reset codigo`
+regresar a la rama master `git checkout master miArchivo`
