@@ -2,3 +2,11 @@ body {
 	text-align: center;
 	font-family: "Arial";
 }
+
+h2 {
+	background-color: aqua;
+}
+
+li {
+	background-color: orange;
+}
