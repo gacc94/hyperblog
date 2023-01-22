@@ -2,3 +2,6 @@ body {
 	text-align: center;
 	font-family: "Arial";
 }
+p {
+	background-color: violet;
+}
