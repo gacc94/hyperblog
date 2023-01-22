@@ -24,6 +24,8 @@ retirar del estado add (--cached = retirar del almacemanimto)`git rm --cached mi
 
 Mostrar todo el historial de git `git log`
 
+Mostrar el historial de git con el espacion en memoria ocupado `git log --stat `
+
 Mostrar historial de cambios en un arhcivo `git show miArchivo`
 
 Mostrar cambios entre commits `git diff codigoHash1 codigoHAash2`
@@ -35,3 +37,11 @@ volver en el tiempo en nuestro repositorio (--hard = )`git reset codigoHash  --h
 ver cambios iniciales de cualquier commit `git checkout codigoHash miArchivo`
 
 regresar a la rama master `git checkout master miArchivo`
+
+## Clonar Repositorio
+
+Crea una copia en local con todos los cambios realizados en ese 
+proyecto `git clone url`
+
+
+## Ramas
