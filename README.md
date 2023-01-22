@@ -51,3 +51,18 @@ Realizar un merge / Unir ramas / es un commit `git merge ramaHijas`
 Crear una rama `git branch NombreRama`
 
 Dirigirse a una rama `git checkout NombreRama`
+
+## Comienzos en Github
+
+Añande el repsoitorio en remoto mendiante
+http(s) `git remote add origin https://github.com/gacc94/hyperblog.git`
+
+Verificar los comandos de forma verbal al acceso 
+remoto `git remote -v`
+
+Cambiar de nombre de manera obligatoria para subir a remoto
+el repositorio de master a main `git branch -M main`
+
+Enviar al origen que es el repositorio remoto creado la rama master 
+`git push -u origin main`
+
