@@ -66,3 +66,6 @@ el repositorio de master a main `git branch -M main`
 Enviar al origen que es el repositorio remoto creado la rama master 
 `git push -u origin main`
 
+
+
+
