@@ -52,6 +52,11 @@ Crear una rama `git branch NombreRama`
 
 Dirigirse a una rama `git checkout NombreRama`
 
+Mostrar las ramas existentes y su historia `git show-branch`
+
+Mostrar las ramas existentes y su historia (--all= todos) `git show-branch --all`
+
+
 ## Comienzos en Github
 
 Añande el repsoitorio en remoto mendiante
@@ -104,5 +109,6 @@ Eliminar tag `git tag -d nombreTag`
 Borrar un tag en el 
 repositorio remoto `git push origin :refs/tags/nombreTag`
 
+Mostrar una interfaz donde se pude visualizar todos los comando `gitk`
 
 
