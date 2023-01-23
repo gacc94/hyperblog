@@ -79,6 +79,7 @@ Establecer origin con ssh
 
 
 # Tag y Versiones Git y Github
+
 Mostrar el historial de todos los commits `git log --all`
 
 Mostrar el historial con graficas `git log --all --graph`
@@ -93,3 +94,15 @@ Colocar un TAG a una version (-a=agregar, -m=mensaje)
 `git tag -a v0.1 -m "Resultado de las primeras clases" HashCode(ef5b6c4)`
 
 Mostrar los tag `git show-ref --tags`
+
+Enviar el tags al repositorio en la nube `git push origin --tags`
+
+revisar los tag existentes `git tag`
+
+Eliminar tag `git tag -d nombreTag`
+
+Borrar un tag en el 
+repositorio remoto `git push origin :refs/tags/nombreTag`
+
+
+
