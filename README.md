@@ -71,10 +71,25 @@ Enviar al origen que es el repositorio remoto creado la rama master
 
 configurar 
 llave ssh `ssh-keygen -t -rsa -b 4096 -C "gustavocaqui94@gmail.com"`
+
 passphrase `gacc94`
 
 Establecer origin con ssh
 `git regit remote set-url origin git@github.com:gacc94/hyperblog.git`
 
 
+# Tag y Versiones Git y Github
+Mostrar el historial de todos los commits `git log --all`
 
+Mostrar el historial con graficas `git log --all --graph`
+
+Mostrar el historial en una linea
+con graficos `git log --all --graph --decorate --oneline`
+
+Utiliar alias para comnados 
+largos ` alias arbolito="git log --all --graph --decorate --oneline"`
+
+Colocar un TAG a una version (-a=agregar, -m=mensaje)
+`git tag -a v0.1 -m "Resultado de las primeras clases" HashCode(ef5b6c4)`
+
+Mostrar los tag `git show-ref --tags`
