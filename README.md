@@ -67,5 +67,14 @@ Enviar al origen que es el repositorio remoto creado la rama master
 `git push -u origin main`
 
 
+# Configuracion KEY SSH
+
+configurar 
+llave ssh `ssh-keygen -t -rsa -b 4096 -C "gustavocaqui94@gmail.com"`
+passphrase `gacc94`
+
+Establecer origin con ssh
+`git regit remote set-url origin git@github.com:gacc94/hyperblog.git`
+
 
 
