@@ -21,3 +21,5 @@ Soy Gustavo desde PYA
 Estoy contribuyendo a este proyecto desde gustavo.caqui.pya
 
 Creado por el increioble gacc94
+
+incluye ejemplos en window linux y mac
