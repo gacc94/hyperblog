@@ -121,8 +121,14 @@ Listar los archivos q se pueden eliminar `git clean --dry-run`
 
 eliminar archivos ya vistos`git clean -f`
 
+## Git Reset y Reflow
+
+listar todo el historial incluyendo todos los HEAD `git reflog`
+
+regresar los cambios hechos `git reset --hard codigoHash`
 
 
+## Git Ammend
 
-
+Enmendar commits
 
