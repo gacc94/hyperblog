@@ -130,5 +130,27 @@ regresar los cambios hechos `git reset --hard codigoHash`
 
 ## Git Ammend
 
-Enmendar commits
+Enmendar commits y cmabios realizados `git commit --ammend`
 
+
+##  Grep y Log
+
+Buscar por palabras (-n=numero de linea) `git grep -n palabra`
+
+Buscar por palabras (c-=contar) `git grep -c palabra`
+
+Buscar en los commits `git log -S "cabecera"`
+
+## comandos y recursos colaborativos
+
+Listar los usuarios que hicieron cambios `git shortlog -sn`
+
+agregar alias en configurar global
+`git config --global alias.stats "-sn --all --no-merges"`
+
+verificar quien realizo las modificaciones
+(-c=agregar formato ) `git blame miArchivo -L1,5 -c`
+
+listar ramas remotas `git branch -r`
+
+listar ramas remotas y locales `git branch -a`
