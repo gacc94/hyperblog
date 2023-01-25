@@ -111,4 +111,18 @@ repositorio remoto `git push origin :refs/tags/nombreTag`
 
 Mostrar una interfaz donde se pude visualizar todos los comando `gitk`
 
+eliminar un stash `git stash drop`
+
+## Git Clean
+
+Eliminar los archivos repetidos `git clean`
+
+Listar los archivos q se pueden eliminar `git clean --dry-run`
+
+eliminar archivos ya vistos`git clean -f`
+
+
+
+
+
 
